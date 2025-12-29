@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stack Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>Stack Visualizer</h1>
+    <p class="subtitle">Push • Pop • Peek (LIFO)</p>
+
+    <div class="controls">
+        <input type="number" id="valueInput" placeholder="Value">
+        <button class="push" onclick="push()">Push</button>
+        <button class="pop" onclick="pop()">Pop</button>
+        <button class="peek" onclick="peek()">Peek</button>
+    </div>
+
+    <div id="message"></div>
+
+    <div class="stack-section">
+        <span class="top-label">TOP</span>
+        <div id="stack"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
 
